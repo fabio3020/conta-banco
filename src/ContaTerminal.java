@@ -12,19 +12,19 @@ public class ContaTerminal {
 		String nomeCliente;
 		double saldo;
 
-		System.out.println("---------------CONTA BANCÁRIA---------------");
+		System.out.println("CONTA BANCO");
 		System.out.println();
-		System.out.println("Por favor, digite o número da Conta: (1234)");
+		System.out.println("número da Conta: (1234)");
 		numero = sc.nextInt();
 
-		System.out.println("Agora digite o número da Agência: (123-8)");
+		System.out.println("número da Agência: (123-8)");
 		agencia = sc.next();
 
-		System.out.println("Me informe seu nome: ");
+		System.out.println(" nome: ");
 		nomeCliente = sc.next();
 		sc.nextLine();
 
-		System.out.println("Agora me informa seu saldo atual: ");
+		System.out.println(" saldo atual: ");
 		saldo = sc.nextDouble();
 
 		System.out.println();
